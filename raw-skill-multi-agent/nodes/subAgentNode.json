@@ -1,0 +1,13 @@
+{
+    "node_name": "subAgent",
+    "referenceTo": [ ],
+    "config": {
+        "label": "Weather Agent",
+        "icon": "",
+        "sub": "worker Agent",
+        "instructions": "",
+        "description":"",
+        "model": ""
+    },
+    "children": []
+}

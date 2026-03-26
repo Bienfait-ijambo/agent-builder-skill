@@ -1,0 +1,10 @@
+{
+    "node_name": "inputNode",
+    "referenceTo":[],
+    "config": {
+      "label": "When chat message received",
+      "icon": "/icons/{icon_name.ext}",
+      "ui": {}
+    },
+    "children":[]
+}

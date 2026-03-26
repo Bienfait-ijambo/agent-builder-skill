@@ -1,0 +1,15 @@
+{
+    "node_name": "modelNode",
+    "referenceTo": [],
+    "config": {
+        "label": "",
+        "icon": "/icons/{icon_name.ext}",
+        "model": "",
+        "apiKey": "",
+        "nodeRegistry": "model",
+        "config": {
+            "provider": ""
+        }
+    },
+    "children": []
+}

@@ -1,0 +1,12 @@
+{
+    "node_name": "agent",
+        "referenceTo":[],
+        "config": {
+          "label": "Manager Agent",
+          "icon": "/icons/{icon_name.ext}",
+          "sub": "Tools Agent",
+          "instructions": "",
+          "description": ""
+        },
+        "children":[]
+}

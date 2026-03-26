@@ -1,0 +1,38 @@
+[
+  {
+    "id": "4aa9e966-1294-4c2a-879d-d6dda4c121d7",
+    "task": "Create icon-registry.md reference file with complete icon mapping",
+    "assigned_to": "me",
+    "status": "in_progress",
+    "dependencies": [],
+    "created_at": "2026-03-20T21:08:06.833Z",
+    "updated_at": "2026-03-20T21:08:06.833Z"
+  },
+  {
+    "id": "f9c2d190-4cb4-48ef-8093-05561b55fa03",
+    "task": "Update SKILL.md with Icon Usage Instructions section",
+    "assigned_to": "me",
+    "status": "pending",
+    "dependencies": [],
+    "created_at": "2026-03-20T21:08:06.833Z",
+    "updated_at": "2026-03-20T21:08:06.833Z"
+  },
+  {
+    "id": "9f7c4f5f-0442-4d71-bbc4-d416e5ad3c4e",
+    "task": "Update node-templates.md with correct icon paths",
+    "assigned_to": "me",
+    "status": "pending",
+    "dependencies": [],
+    "created_at": "2026-03-20T21:08:06.833Z",
+    "updated_at": "2026-03-20T21:08:06.833Z"
+  },
+  {
+    "id": "8deb6108-0aef-4bb8-8fae-9692869bdd67",
+    "task": "Export updated files to sandbox-files folder",
+    "assigned_to": "me",
+    "status": "pending",
+    "dependencies": [],
+    "created_at": "2026-03-20T21:08:06.833Z",
+    "updated_at": "2026-03-20T21:08:06.833Z"
+  }
+]

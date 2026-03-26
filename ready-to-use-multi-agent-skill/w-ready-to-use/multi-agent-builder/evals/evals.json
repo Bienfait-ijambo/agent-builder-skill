@@ -1,0 +1,75 @@
+{
+  "skill_name": "multi-agent-builder",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "simple-search-agent",
+      "prompt": "Create an agent that can search the web for information",
+      "expected_output": "A valid JSON with inputNode, agent, and search tool",
+      "assertions": [
+        "JSON is valid and parseable",
+        "First element is inputNode",
+        "Agent has search tool in children",
+        "Tool nodeRegistry is 'search'"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "research-team",
+      "prompt": "Build a research team with a manager that coordinates a web researcher and a document analyzer",
+      "expected_output": "A valid JSON with manager agent and two subAgents with appropriate tools",
+      "assertions": [
+        "JSON is valid and parseable",
+        "Manager agent has two subAgents",
+        "Web researcher has search tool",
+        "Document analyzer has retriever tool",
+        "Each subAgent has meaningful instructions"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "eval_name": "content-creation-team",
+      "prompt": "Create a content creation system with a manager, a researcher, a writer, and an image generator",
+      "expected_output": "A valid JSON with manager agent and three specialized subAgents",
+      "assertions": [
+        "JSON is valid and parseable",
+        "Manager agent exists",
+        "Three subAgents with distinct roles",
+        "Researcher has search tool",
+        "Writer has writeFile tool",
+        "Image generator has imageGenerator tool"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "eval_name": "nested-agents",
+      "prompt": "Build a hierarchical agent system with a top-level manager, a middle-level supervisor, and a leaf-level worker",
+      "expected_output": "A valid JSON with nested subAgent structure",
+      "assertions": [
+        "JSON is valid and parseable",
+        "Manager agent exists",
+        "SubAgent nested inside another subAgent",
+        "All agents have instructions",
+        "ReferenceTo fields are correct"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "eval_name": "full-stack-agent",
+      "prompt": "Create a complete agent system with a manager that has a model (GPT), a search tool, and a subAgent with its own tools",
+      "expected_output": "A valid JSON with agent having model, tool, and subAgent",
+      "assertions": [
+        "JSON is valid and parseable",
+        "Agent has modelNode with model='gpt'",
+        "Agent has search tool",
+        "Agent has subAgent",
+        "SubAgent has its own tools"
+      ],
+      "files": []
+    }
+  ]
+}

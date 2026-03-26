@@ -1,0 +1,1 @@
+This folder containers instrustions to build supervisor-muli-agent system json that will be passed to a react-flow canvas

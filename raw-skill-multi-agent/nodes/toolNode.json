@@ -1,0 +1,15 @@
+{
+    "node_name": "tool",
+    "referenceTo": [ ],
+    "config": {
+        "label": "Web Search",
+        "icon": "/icons/{icon_name.ext}",
+        "nodeRegistry": "search",
+        "name": "Web Search",
+        "config": {
+            "provider": "",
+            "description": ""
+        }
+    },
+    "children": []
+}
