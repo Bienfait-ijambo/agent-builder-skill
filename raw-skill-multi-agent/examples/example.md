@@ -9,9 +9,6 @@ The system is built using:
 - A **graph structure** (`referenceTo`) for node relationships
 -  instructions, property represent the system prompt,
 - description : describe what the agent or subagent does. for tools what the tools does
-
-
-
 ---
 
 ## 🧩 Core Concepts
